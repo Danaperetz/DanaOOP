@@ -1,6 +1,6 @@
 public class Test {
 
-	public static Color whichColor() {
+	public static Color chooseColor() {
 		int num = (int) (Math.random() * 3);
 
 		switch (num) {
@@ -47,7 +47,7 @@ public class Test {
 			int length = (int) (Math.random() * 100) + 20;
 			int width = (int) (Math.random() * 100) + 20;
 			int highet = (int) (Math.random() * 100) + 20;
-			Color color = whichColor();
+			Color color = chooseColor();
 			switch (num) {
 			case 0:
 				int numberOfSets = (int) (Math.random() * 4) + 2;
