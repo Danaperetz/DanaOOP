@@ -18,7 +18,7 @@ public class Test {
 			break;
 		}
 		return color;
-
+gcyfvgvgvfy
 	}
 
 	public static boolean singleOrCouple() {
