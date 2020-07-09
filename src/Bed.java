@@ -7,7 +7,7 @@ public class Bed extends Furniture {
 
 	}
 
-	public Bed(int length, int width, int highet, String color, boolean isTheBedSingle) {
+	public Bed(int length, int width, int highet, Color color, boolean isTheBedSingle) {
 		super(length, width, highet, color);
 		this.isTheBedSingle = isTheBedSingle;
 	}

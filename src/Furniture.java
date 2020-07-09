@@ -42,11 +42,11 @@ public abstract class Furniture {
 		this.highet = highet;
 	}
 
-	public String getColor() {
+	public Color getColor() {
 		return color;
 	}
 
-	public void setColor(String color) {
+	public void setColor(Color color) {
 		this.color = color;
 	}
 

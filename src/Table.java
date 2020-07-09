@@ -3,7 +3,7 @@ public class Table extends Furniture {
 
 	private int numberOfSets;
 
-	public Table(int length, int width, int highet, String color, int numberOfSets) {
+	public Table(int length, int width, int highet, Color color, int numberOfSets) {
 		super(length, width, highet, color);
 		this.numberOfSets = numberOfSets;
 	}

@@ -1,24 +1,21 @@
 public class Test {
 
-	public static String whichColor() {
+	public static Color whichColor() {
 		int num = (int) (Math.random() * 3);
-		String color;
+
 		switch (num) {
 		case 0:
-			color = "white";
-			break;
+			return Color.WHITE;
+
 		case 1:
-			color = "Black";
-			break;
+			return Color.BLACK;
+
 		case 2:
-			color = "Red";
-			break;
+			return Color.RED;
 		default:
-			color = "N/A";
-			break;
+			return null;
 		}
-		return color;
-gcyfvgvgvfy
+
 	}
 
 	public static boolean singleOrCouple() {
@@ -50,7 +47,7 @@ gcyfvgvgvfy
 			int length = (int) (Math.random() * 100) + 20;
 			int width = (int) (Math.random() * 100) + 20;
 			int highet = (int) (Math.random() * 100) + 20;
-			String color = whichColor();
+			Color color = whichColor();
 			switch (num) {
 			case 0:
 				int numberOfSets = (int) (Math.random() * 4) + 2;

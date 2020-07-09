@@ -7,7 +7,7 @@ public class Chair extends Furniture {
 
 	}
 
-	public Chair(int length, int width, int highet, String color, int numberOfLegs) {
+	public Chair(int length, int width, int highet, Color color, int numberOfLegs) {
 		super(length, width, highet, color);
 		this.numberOfLegs = numberOfLegs;
 	}
